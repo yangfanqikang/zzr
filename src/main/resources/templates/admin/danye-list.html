@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>网站后台管理模版</title>
+		<link rel="stylesheet" type="text/css" href="/admin/layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="/admin/css/admin.css" />
+	</head>
+
+	<body>
+	<div class="main-layout" id='main-layout' >
+		<!--侧边栏-->
+		<div class="main-layout-side">
+			<div class="m-logo">
+			</div>
+			<ul class="layui-nav layui-nav-tree" lay-filter="leftNav">
+				<li class="layui-nav-item layui-nav-itemed">
+					<a href="javascript:;"><i class="iconfont">&#xe607;</i>菜单管理</a>
+					<dl class="layui-nav-child">
+						<dd><a href="javascript:;" data-url="menu1.html" data-id='1' data-text="后台菜单"><span class="l-line"></span>后台菜单</a></dd>
+						<dd><a href="javascript:;" data-url="menu2.html" data-id='2' data-text="前台菜单"><span class="l-line"></span>前台菜单</a></dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;"><i class="iconfont">&#xe608;</i>内容管理</a>
+					<dl class="layui-nav-child">
+						<dd><a href="javascript:;" data-url="article-list.html" data-id='3' data-text="文章管理"><span class="l-line"></span>文章管理</a></dd>
+						<dd><a href="javascript:;" data-url="danye-list.html" data-id='9' data-text="单页管理"><span class="l-line"></span>单页管理</a></dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;"><i class="iconfont">&#xe604;</i>推荐位管理</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;"><i class="iconfont">&#xe60c;</i>友情链接</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;"><i class="iconfont">&#xe60a;</i>RBAC</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i class="iconfont">&#xe603;</i>邮件系统</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;"><i class="iconfont">&#xe60d;</i>生成静态</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;"><i class="iconfont">&#xe600;</i>备份管理</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息"><i class="iconfont">&#xe606;</i>个人信息</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="system.html" data-id='6' data-text="系统设置"><i class="iconfont">&#xe60b;</i>系统设置</a>
+				</li>
+			</ul>
+		</div>
+		<!--右侧内容-->
+		<div class="main-layout-container" >
+			<!--头部-->
+			<div class="main-layout-header">
+				<div class="menu-btn" id="hideBtn">
+					<a href="javascript:;">
+						<span class="iconfont">&#xe60e;</span>
+					</a>
+				</div>
+				<ul class="layui-nav" lay-filter="rightNav">
+					<li class="layui-nav-item"><a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i class="iconfont">&#xe603;</i></a></li>
+					<li class="layui-nav-item">
+						<a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息">超级管理员</a>
+					</li>
+					<li class="layui-nav-item"><a href="javascript:;">退出</a></li>
+				</ul>
+			</div>
+			<!--主体内容-->
+			<div class="main-layout-body">
+				<!--tab 切换-->
+				<div class="layui-tab layui-tab-brief main-layout-tab" lay-filter="tab" lay-allowClose="true">
+					<ul class="layui-tab-title">
+						<li class="layui-this welcome">后台主页</li>
+					</ul>
+					<div class="layui-tab-content">
+						<div class="layui-tab-item layui-show" style="background: #fff;">
+		<div class="page-content-wrap">
+			<form class="layui-form" action="">
+				<div class="layui-form-item">
+					<div class="layui-inline tool-btn">
+						<button class="layui-btn layui-btn-small layui-btn-normal go-btn hidden-xs" data-url="danye-detail"><i class="layui-icon">&#xe654;</i></button>
+						<button class="layui-btn layui-btn-small layui-btn-warm listOrderBtn hidden-xs" data-url="/admin/category/listorderall.html"><i class="iconfont">&#xe656;</i></button>
+					</div>
+					<div class="layui-inline">
+						<input type="text" name="title" placeholder="请输入标题" autocomplete="off" class="layui-input">
+					</div>
+					<button class="layui-btn layui-btn-normal" lay-submit="search">搜索</button>
+				</div>
+			</form>
+			<div class="layui-form" id="table-list">
+				<table class="layui-table" lay-even lay-skin="nob">
+					<colgroup>
+						<col width="50">
+						<col class="hidden-xs" width="50">
+						<col class="hidden-xs" width="100">
+						<col>
+						<col class="hidden-xs" width="200">
+						<col width="80">
+						<col width="150">
+					</colgroup>
+					<thead>
+						<tr>
+							<th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose"></th>
+							<th class="hidden-xs">ID</th>
+							<th class="hidden-xs">类别</th>
+							<th>标题名称</th>
+							<th>关键字</th>
+							<th>简介</th>
+							<th>内容</th>
+							<th>时间</th>
+							<th>状态</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="article,articles : ${articles}">
+							<td><input type="checkbox" name="" lay-skin="primary" data-id="1"></td>
+							<td class="hidden-xs" th:text="${article.id}">1</td>
+							<!--<td class="hidden-xs"><input type="text" name="title" autocomplete="off" class="layui-input" value="0" data-id="1"></td>-->
+							<td th:text="${article.category}"></td>
+							<td  th:text="${article.title}">关于我们</td>
+							<td  th:text="${article.keyword}">关键字</td>
+							<td th:text="${article.des}">关于我们</td>
+							<td th:utext="${article.content}">内容</td>
+
+							<td th:text="${article.createTime}">2016-09-06 20:46:16</td>
+							<td><button class="layui-btn layui-btn-mini layui-btn-normal table-list-status" data-status='1'>显示</button></td>
+							<td>
+								<div class="layui-inline">
+									<!--<button class="layui-btn layui-btn-mini layui-btn-normal  go-btn"  th:href="@{edit(id=${article.id})}"><i class="layui-icon">&#xe642;</i></button>-->
+									<!--<button class="layui-btn layui-btn-mini layui-btn-danger del-btn"  th:href="@{delete(id=${article.id})}"><i class="layui-icon">&#xe640;</i></button>-->
+									<a class="layui-btn layui-btn-mini layui-btn-normal"  th:href="@{/edit(id=${article.id})}"><i class="layui-icon">&#xe642;</i></a>
+									<a class="layui-btn layui-btn-mini layui-btn-danger delelte-btn" th:attr="data-id=${article.id}"><i class="layui-icon">&#xe640;</i></a>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div style="width: 100%;text-align: center;">
+					<div id="demo2"></div>
+				</div>
+
+			</div>
+		</div>
+		<script src="/admin/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/admin/js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="/admin/initPage.js" charset="utf-8"></script>
+		<script>
+                var totalCount = [[${totalCount}]];
+                var curPage = [[${curPage}]];
+                var pageSize = [[${pageSize}]];
+                /**
+                 * 纯粹的JS分页插件，代码缺点：JS操作DOM冗余太多，太繁琐
+                 */
+                pageUtil.initPage('demo2',{
+                    totalCount:totalCount,//总页数，一般从回调函数中获取。如果没有数据则默认为1页
+                    curPage:curPage,//初始化时的默认选中页，默认第一页。如果所填范围溢出或者非数字或者数字字符串，则默认第一页
+                    showCount:9,//分页栏显示的数量
+                    pageSizeList:[3,5,10,15,20,25,30],//自定义分页数，默认[5,10,15,20,50]
+                    defaultPageSize:pageSize,//默认选中的分页数,默认选中第一个。如果未匹配到数组或者默认数组中，则也为第一个
+                    isJump:true,//是否包含跳转功能，默认false
+                    isPageNum:true,//是否显示分页下拉选择，默认false
+                    isPN:true,//是否显示上一页和下一面，默认true
+                    isFL:true,//是否显示首页和末页，默认true
+                    jump:function(curPage,pageSize){//跳转功能回调，传递回来2个参数，当前页和每页大小。如果没有设置分页下拉，则第二个参数永远为0。这里的this被指定为一个空对象，如果回调中需用到this请自行使用bind方法
+                        location.href="findAll?page="+curPage+"&size="+pageSize;
+                    },
+                });
+            layui.use(['form', 'jquery', 'layer', 'dialog','laypage'], function() {
+				var $ = layui.jquery;
+				//修改状态
+				$('#table-list').on('click', '.table-list-status', function() {
+					var That = $(this);
+					var status = That.attr('data-status');
+					var id = That.parent().attr('data-id');
+					if(status == 1) {
+						That.removeClass('layui-btn-normal').addClass('layui-btn-warm').html('隐藏').attr('data-status', 2);
+					} else if(status == 2) {
+						That.removeClass('layui-btn-warm').addClass('layui-btn-normal').html('显示').attr('data-status', 1);
+
+					}
+				})
+
+                $('.delelte-btn').click(function () {
+                    var href = {}
+                    var id = $(this).attr("data-id");
+                    layer.confirm('确定要删除任务么？', {
+                        btn: ['确定','取消'] //按钮
+                    }, function(){
+                        location.href="/delete?id="+id;
+                        // $(this).attr('href', "/delete/?id=1");
+                    });
+                })
+
+
+			});
+
+
+		</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--遮罩-->
+		<div class="main-mask">
+
+		</div>
+	</div>
+	</body>
+
+</html>

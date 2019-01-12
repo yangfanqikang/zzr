@@ -1,0 +1,620 @@
+2019-01-10 21:07:33.126 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 5500 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 21:07:33.129 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 21:07:33.242 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15a95028: startup date [Thu Jan 10 21:07:33 CST 2019]; root of context hierarchy
+2019-01-10 21:07:35.279 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 21:07:35.432 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:07:35.565 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:07:35.593 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 21:07:35.595 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 21:07:36.320 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$188e4a8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 21:07:36.984 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 21:07:37.002 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:07:37.023 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 21:07:37.024 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 21:07:37.030 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\scala\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\scala\bin;C:\Program Files\Calibre2\;D:\apache-tomcat-8.0.32\lib;D:\apache-tomcat-8.0.32\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;D:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Go\bin;C:\Go\\bin;%GOPATH%\bin;D:\soft\node\;D:\soft\node\node_cache;D:\soft\Git\cmd;C:\Program Files\Redis\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\go\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\soft\Maven\apache-maven-3.3.3\bin;.]
+2019-01-10 21:07:37.293 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 21:07:37.293 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 4051 ms
+2019-01-10 21:07:37.522 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 21:07:37.529 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 21:07:37.530 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 21:07:37.530 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 21:07:37.530 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 21:07:38.039 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2019-01-10 21:07:38.332 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:07:38.351 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 21:07:38.488 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 45 ] - HHH000412: Hibernate Core {5.2.16.Final}
+2019-01-10 21:07:38.490 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-01-10 21:07:38.577 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 66 ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-10 21:07:39.292 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 21:07:40.220 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:07:40.824 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:07:41.219 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15a95028: startup date [Thu Jan 10 21:07:33 CST 2019]; root of context hierarchy
+2019-01-10 21:07:41.264 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 21:07:41.332 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 21:07:41.335 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:07:41.336 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 21:07:41.336 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 21:07:41.337 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 21:07:41.338 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:07:41.339 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 21:07:41.339 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 21:07:41.340 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 21:07:41.343 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 21:07:41.343 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 21:07:41.387 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:07:41.387 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:07:41.589 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 21:07:43.452 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 21:07:43.514 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 21:07:43.516 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 21:07:43.526 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 21:07:43.534 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 21:07:43.548 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:07:43.566 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 21:07:43.597 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 21:07:43.601 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 11.356 seconds (JVM running for 14.673)
+2019-01-10 21:07:45.544 [ http-nio-9999-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 21:07:45.545 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 21:07:45.609 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 64 ms
+2019-01-10 21:07:48.769 [ http-nio-9999-exec-5 ] - [ INFO  ] [ o.h.hql.internal.QueryTranslatorFactoryInitiator : 47 ] - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 21:13:05.336 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 10552 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 21:13:05.339 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 21:13:05.412 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@76b4bb05: startup date [Thu Jan 10 21:13:05 CST 2019]; root of context hierarchy
+2019-01-10 21:13:06.811 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 21:13:06.896 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:13:06.987 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:13:07.007 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 21:13:07.009 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 21:13:07.752 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c1372c94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 21:13:08.324 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 21:13:08.343 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:13:08.361 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 21:13:08.361 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 21:13:08.368 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\scala\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\scala\bin;C:\Program Files\Calibre2\;D:\apache-tomcat-8.0.32\lib;D:\apache-tomcat-8.0.32\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;D:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Go\bin;C:\Go\\bin;%GOPATH%\bin;D:\soft\node\;D:\soft\node\node_cache;D:\soft\Git\cmd;C:\Program Files\Redis\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\go\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\soft\Maven\apache-maven-3.3.3\bin;.]
+2019-01-10 21:13:08.659 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 21:13:08.660 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 3249 ms
+2019-01-10 21:13:08.894 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 21:13:08.902 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 21:13:08.903 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 21:13:08.903 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 21:13:08.904 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 21:13:09.255 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2019-01-10 21:13:09.547 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:13:09.561 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 21:13:09.669 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 45 ] - HHH000412: Hibernate Core {5.2.16.Final}
+2019-01-10 21:13:09.671 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-01-10 21:13:09.733 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 66 ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-10 21:13:10.039 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 21:13:10.921 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:13:11.463 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:13:11.874 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@76b4bb05: startup date [Thu Jan 10 21:13:05 CST 2019]; root of context hierarchy
+2019-01-10 21:13:11.926 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 21:13:11.978 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 21:13:11.982 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:13:11.983 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 21:13:11.983 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 21:13:11.984 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 21:13:11.984 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 21:13:11.985 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 21:13:11.985 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 21:13:11.986 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:13:11.989 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 21:13:11.989 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 21:13:12.034 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:13:12.035 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:13:12.224 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 21:13:13.688 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 21:13:13.744 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 21:13:13.746 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 21:13:13.755 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 21:13:13.761 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 21:13:13.772 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:13:13.789 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 21:13:13.814 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 21:13:13.819 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 9.621 seconds (JVM running for 11.648)
+2019-01-10 21:13:17.537 [ http-nio-9999-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 21:13:17.538 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 21:13:17.576 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2019-01-10 21:13:22.424 [ http-nio-9999-exec-4 ] - [ INFO  ] [ o.h.hql.internal.QueryTranslatorFactoryInitiator : 47 ] - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 21:13:22.587 [ http-nio-9999-exec-4 ] - [ ERROR ] [ org.thymeleaf.TemplateEngine : 1136 ] - [THYMELEAF][http-nio-9999-exec-4] Exception processing template "admin/danye-list": Error resolving template "admin/danye-list", template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "admin/danye-list", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:870)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-10 21:13:22.603 [ http-nio-9999-exec-4 ] - [ ERROR ] [ o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 182 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "admin/danye-list", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "admin/danye-list", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:870)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-10 21:14:47.489 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 5160 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 21:14:47.492 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 21:14:47.620 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d3fedf6: startup date [Thu Jan 10 21:14:47 CST 2019]; root of context hierarchy
+2019-01-10 21:14:48.929 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 21:14:49.007 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:14:49.090 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:14:49.109 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 21:14:49.111 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 21:14:49.811 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e45420ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 21:14:50.374 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 21:14:50.390 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:14:50.407 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 21:14:50.407 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 21:14:50.484 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\scala\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\scala\bin;C:\Program Files\Calibre2\;D:\apache-tomcat-8.0.32\lib;D:\apache-tomcat-8.0.32\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;D:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;C:\Go\bin;C:\Go\\bin;%GOPATH%\bin;D:\soft\node\;D:\soft\node\node_cache;D:\soft\Git\cmd;C:\Program Files\Redis\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\go\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\soft\Maven\apache-maven-3.3.3\bin;.]
+2019-01-10 21:14:50.671 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 21:14:50.672 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 3052 ms
+2019-01-10 21:14:50.900 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 21:14:50.908 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 21:14:50.908 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 21:14:50.908 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 21:14:50.908 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 21:14:51.247 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-1} inited
+2019-01-10 21:14:51.478 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:14:51.492 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 21:14:51.583 [ restartedMain ] - [ INFO  ] [ org.hibernate.Version : 45 ] - HHH000412: Hibernate Core {5.2.16.Final}
+2019-01-10 21:14:51.586 [ restartedMain ] - [ INFO  ] [ org.hibernate.cfg.Environment : 213 ] - HHH000206: hibernate.properties not found
+2019-01-10 21:14:51.645 [ restartedMain ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 66 ] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-01-10 21:14:51.923 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 21:14:52.643 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:14:53.171 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:14:53.553 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d3fedf6: startup date [Thu Jan 10 21:14:47 CST 2019]; root of context hierarchy
+2019-01-10 21:14:53.598 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 21:14:53.650 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 21:14:53.654 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:14:53.655 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 21:14:53.656 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 21:14:53.656 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 21:14:53.657 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 21:14:53.657 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 21:14:53.657 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 21:14:53.658 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:14:53.661 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 21:14:53.661 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 21:14:53.706 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:14:53.706 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:14:53.874 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 21:14:55.295 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 21:14:55.342 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 21:14:55.344 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 21:14:55.353 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 21:14:55.359 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 21:14:55.368 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:14:55.382 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 21:14:55.403 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 21:14:55.407 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 8.698 seconds (JVM running for 10.747)
+2019-01-10 21:15:02.099 [ http-nio-9999-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 21:15:02.099 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 21:15:02.136 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2019-01-10 21:15:02.241 [ http-nio-9999-exec-1 ] - [ INFO  ] [ o.h.hql.internal.QueryTranslatorFactoryInitiator : 47 ] - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 21:56:16.575 [ Thread-24 ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 993 ] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d3fedf6: startup date [Thu Jan 10 21:14:47 CST 2019]; root of context hierarchy
+2019-01-10 21:56:16.578 [ Thread-24 ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 366 ] - Stopping beans in phase 2147483647
+2019-01-10 21:56:16.622 [ Thread-24 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 451 ] - Unregistering JMX-exposed beans on shutdown
+2019-01-10 21:56:16.623 [ Thread-24 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 183 ] - Unregistering JMX-exposed beans
+2019-01-10 21:56:16.625 [ Thread-24 ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 597 ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:56:16.630 [ Thread-24 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-1} closed
+2019-01-10 21:56:17.342 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 5160 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 21:56:17.342 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 21:56:17.346 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64406c2f: startup date [Thu Jan 10 21:56:17 CST 2019]; root of context hierarchy
+2019-01-10 21:56:18.177 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 21:56:18.217 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:56:18.249 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 21:56:18.259 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 21:56:18.260 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 21:56:18.457 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e45420ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 21:56:18.786 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 21:56:18.787 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:56:18.788 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 21:56:18.789 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 21:56:18.864 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 21:56:18.865 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 1519 ms
+2019-01-10 21:56:18.930 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 21:56:18.931 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 21:56:18.931 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 21:56:18.931 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 21:56:18.933 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 21:56:19.064 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-2} inited
+2019-01-10 21:56:19.089 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:56:19.089 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 21:56:19.272 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 21:56:19.399 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 21:56:19.531 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:56:19.655 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64406c2f: startup date [Thu Jan 10 21:56:17 CST 2019]; root of context hierarchy
+2019-01-10 21:56:19.675 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 21:56:19.684 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 21:56:19.685 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:56:19.686 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 21:56:19.686 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 21:56:19.687 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 21:56:19.688 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 21:56:19.689 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 21:56:19.692 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 21:56:19.693 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 21:56:19.694 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/delete/{id}],methods=[DELETE]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.deleteArticleById(java.lang.Integer)
+2019-01-10 21:56:19.696 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 21:56:19.697 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 21:56:19.720 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:56:19.720 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 21:56:19.793 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 21:56:20.269 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 21:56:20.302 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 21:56:20.302 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 21:56:20.308 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 21:56:20.310 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 21:56:20.314 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 21:56:20.316 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 21:56:20.320 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 21:56:20.322 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 3.048 seconds (JVM running for 2495.662)
+2019-01-10 21:56:20.326 [ restartedMain ] - [ INFO  ] [ o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : 56 ] - Condition evaluation unchanged
+2019-01-10 21:56:22.278 [ http-nio-9999-exec-2 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 21:56:22.279 [ http-nio-9999-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 21:56:22.284 [ http-nio-9999-exec-2 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2019-01-10 21:56:22.289 [ http-nio-9999-exec-2 ] - [ INFO  ] [ o.h.hql.internal.QueryTranslatorFactoryInitiator : 47 ] - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 22:18:35.582 [ Thread-32 ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 993 ] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64406c2f: startup date [Thu Jan 10 21:56:17 CST 2019]; root of context hierarchy
+2019-01-10 22:18:35.585 [ Thread-32 ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 366 ] - Stopping beans in phase 2147483647
+2019-01-10 22:18:35.591 [ Thread-32 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 451 ] - Unregistering JMX-exposed beans on shutdown
+2019-01-10 22:18:35.592 [ Thread-32 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 183 ] - Unregistering JMX-exposed beans
+2019-01-10 22:18:35.593 [ Thread-32 ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 597 ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:18:35.596 [ Thread-32 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-2} closed
+2019-01-10 22:18:36.124 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 5160 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 22:18:36.125 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 22:18:36.129 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@195874da: startup date [Thu Jan 10 22:18:36 CST 2019]; root of context hierarchy
+2019-01-10 22:18:36.980 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 22:18:37.017 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:18:37.046 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:18:37.053 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 22:18:37.054 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 22:18:37.253 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e45420ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 22:18:37.503 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 22:18:37.505 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:18:37.506 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 22:18:37.506 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 22:18:37.575 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 22:18:37.576 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 1447 ms
+2019-01-10 22:18:37.626 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 22:18:37.627 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 22:18:37.627 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 22:18:37.628 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 22:18:37.628 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 22:18:37.724 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-3} inited
+2019-01-10 22:18:37.751 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:18:37.751 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 22:18:37.921 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 22:18:38.027 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:18:38.141 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:18:38.236 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@195874da: startup date [Thu Jan 10 22:18:36 CST 2019]; root of context hierarchy
+2019-01-10 22:18:38.247 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 22:18:38.258 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 22:18:38.259 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:18:38.260 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 22:18:38.260 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 22:18:38.261 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 22:18:38.261 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 22:18:38.261 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 22:18:38.262 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 22:18:38.262 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:18:38.263 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/delete/{id}],methods=[DELETE]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.deleteArticleById(java.lang.Integer)
+2019-01-10 22:18:38.265 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 22:18:38.265 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 22:18:38.279 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:18:38.280 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:18:38.320 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 22:18:38.715 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 22:18:38.747 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 22:18:38.747 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 22:18:38.752 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 22:18:38.754 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 22:18:38.759 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:18:38.761 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 22:18:38.765 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 22:18:38.768 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 2.704 seconds (JVM running for 3834.108)
+2019-01-10 22:18:38.771 [ restartedMain ] - [ INFO  ] [ o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : 56 ] - Condition evaluation unchanged
+2019-01-10 22:18:46.882 [ http-nio-9999-exec-3 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 22:18:46.883 [ http-nio-9999-exec-3 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 22:18:46.887 [ http-nio-9999-exec-3 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2019-01-10 22:18:46.891 [ http-nio-9999-exec-3 ] - [ INFO  ] [ o.h.hql.internal.QueryTranslatorFactoryInitiator : 47 ] - HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 22:39:06.302 [ http-nio-9999-exec-7 ] - [ WARN  ] [ org.springframework.web.servlet.PageNotFound : 250 ] - Request method 'GET' not supported
+2019-01-10 22:39:06.303 [ http-nio-9999-exec-7 ] - [ WARN  ] [ o.s.w.s.m.support.DefaultHandlerExceptionResolver : 193 ] - Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2019-01-10 22:39:49.110 [ Thread-38 ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 993 ] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@195874da: startup date [Thu Jan 10 22:18:36 CST 2019]; root of context hierarchy
+2019-01-10 22:39:49.112 [ Thread-38 ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 366 ] - Stopping beans in phase 2147483647
+2019-01-10 22:39:49.117 [ Thread-38 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 451 ] - Unregistering JMX-exposed beans on shutdown
+2019-01-10 22:39:49.118 [ Thread-38 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 183 ] - Unregistering JMX-exposed beans
+2019-01-10 22:39:49.119 [ Thread-38 ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 597 ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:39:49.120 [ Thread-38 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-3} closed
+2019-01-10 22:39:49.715 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 5160 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 22:39:49.715 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 22:39:49.720 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21090f61: startup date [Thu Jan 10 22:39:49 CST 2019]; root of context hierarchy
+2019-01-10 22:39:50.689 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 22:39:50.722 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:39:50.750 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:39:50.758 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 22:39:50.758 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 22:39:50.924 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e45420ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 22:39:51.206 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 22:39:51.208 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:39:51.209 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 22:39:51.209 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 22:39:51.270 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 22:39:51.271 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 1551 ms
+2019-01-10 22:39:51.315 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 22:39:51.316 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 22:39:51.316 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 22:39:51.317 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 22:39:51.317 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 22:39:51.404 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-4} inited
+2019-01-10 22:39:51.426 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:39:51.426 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 22:39:51.568 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 22:39:51.670 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:39:51.795 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:39:51.891 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21090f61: startup date [Thu Jan 10 22:39:49 CST 2019]; root of context hierarchy
+2019-01-10 22:39:51.902 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 22:39:51.911 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 22:39:51.912 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:39:51.912 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 22:39:51.913 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 22:39:51.913 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 22:39:51.914 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 22:39:51.914 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 22:39:51.915 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 22:39:51.916 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:39:51.916 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/delete],methods=[DELETE]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.deleteArticleById(java.lang.Integer)
+2019-01-10 22:39:51.919 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 22:39:51.919 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 22:39:51.938 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:39:51.938 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:39:51.987 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 22:39:52.374 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 22:39:52.411 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 22:39:52.412 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 22:39:52.417 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 22:39:52.419 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 22:39:52.424 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:39:52.427 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 22:39:52.433 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 22:39:52.435 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 2.787 seconds (JVM running for 5107.775)
+2019-01-10 22:39:52.451 [ restartedMain ] - [ INFO  ] [ o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : 56 ] - Condition evaluation unchanged
+2019-01-10 22:40:00.834 [ http-nio-9999-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 22:40:00.834 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 22:40:00.840 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2019-01-10 22:40:30.681 [ http-nio-9999-exec-9 ] - [ WARN  ] [ org.springframework.web.servlet.PageNotFound : 250 ] - Request method 'GET' not supported
+2019-01-10 22:40:30.682 [ http-nio-9999-exec-9 ] - [ WARN  ] [ o.s.w.s.m.support.DefaultHandlerExceptionResolver : 193 ] - Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2019-01-10 22:40:56.065 [ Thread-44 ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 993 ] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@21090f61: startup date [Thu Jan 10 22:39:49 CST 2019]; root of context hierarchy
+2019-01-10 22:40:56.067 [ Thread-44 ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 366 ] - Stopping beans in phase 2147483647
+2019-01-10 22:40:56.073 [ Thread-44 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 451 ] - Unregistering JMX-exposed beans on shutdown
+2019-01-10 22:40:56.073 [ Thread-44 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 183 ] - Unregistering JMX-exposed beans
+2019-01-10 22:40:56.074 [ Thread-44 ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 597 ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:40:56.075 [ Thread-44 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-4} closed
+2019-01-10 22:40:56.775 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 5160 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 22:40:56.776 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 22:40:56.785 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6351b2ad: startup date [Thu Jan 10 22:40:56 CST 2019]; root of context hierarchy
+2019-01-10 22:40:57.675 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 22:40:57.707 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:40:57.738 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:40:57.745 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 22:40:57.745 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 22:40:57.894 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e45420ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 22:40:58.111 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 22:40:58.112 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:40:58.112 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 22:40:58.112 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 22:40:58.163 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 22:40:58.164 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 1379 ms
+2019-01-10 22:40:58.202 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 22:40:58.203 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 22:40:58.203 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 22:40:58.203 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 22:40:58.203 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 22:40:58.269 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-5} inited
+2019-01-10 22:40:58.287 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:40:58.287 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 22:40:58.410 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 22:40:58.486 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:40:58.589 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:40:58.693 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6351b2ad: startup date [Thu Jan 10 22:40:56 CST 2019]; root of context hierarchy
+2019-01-10 22:40:58.721 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 22:40:58.733 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 22:40:58.734 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:40:58.734 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 22:40:58.735 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 22:40:58.735 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 22:40:58.735 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 22:40:58.736 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 22:40:58.736 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 22:40:58.737 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:40:58.737 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/delete],methods=[DELETE]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.deleteArticleById(java.lang.Integer)
+2019-01-10 22:40:58.739 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 22:40:58.739 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 22:40:58.755 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:40:58.756 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:40:58.794 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 22:40:59.143 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 22:40:59.173 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 22:40:59.174 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 22:40:59.179 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 22:40:59.180 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 22:40:59.185 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:40:59.186 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 22:40:59.191 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 22:40:59.192 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 2.557 seconds (JVM running for 5174.532)
+2019-01-10 22:40:59.195 [ restartedMain ] - [ INFO  ] [ o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : 56 ] - Condition evaluation unchanged
+2019-01-10 22:41:12.484 [ http-nio-9999-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 22:41:12.484 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 22:41:12.489 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2019-01-10 22:41:12.491 [ http-nio-9999-exec-1 ] - [ WARN  ] [ org.springframework.web.servlet.PageNotFound : 250 ] - Request method 'GET' not supported
+2019-01-10 22:41:12.492 [ http-nio-9999-exec-1 ] - [ WARN  ] [ o.s.w.s.m.support.DefaultHandlerExceptionResolver : 193 ] - Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2019-01-10 22:42:01.033 [ Thread-50 ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 993 ] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6351b2ad: startup date [Thu Jan 10 22:40:56 CST 2019]; root of context hierarchy
+2019-01-10 22:42:01.036 [ Thread-50 ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 366 ] - Stopping beans in phase 2147483647
+2019-01-10 22:42:01.039 [ Thread-50 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 451 ] - Unregistering JMX-exposed beans on shutdown
+2019-01-10 22:42:01.040 [ Thread-50 ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 183 ] - Unregistering JMX-exposed beans
+2019-01-10 22:42:01.042 [ Thread-50 ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 597 ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:42:01.044 [ Thread-50 ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1825 ] - {dataSource-5} closed
+2019-01-10 22:42:01.588 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 50 ] - Starting ZzrApplication on 0CHQUDIYVB9DDS7 with PID 5160 (D:\Workspaces\idea\zzr\target\classes started by Administrator in D:\Workspaces\idea\zzr)
+2019-01-10 22:42:01.588 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 659 ] - No active profile set, falling back to default profiles: default
+2019-01-10 22:42:01.593 [ restartedMain ] - [ INFO  ] [ o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : 590 ] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5beab64c: startup date [Thu Jan 10 22:42:01 CST 2019]; root of context hierarchy
+2019-01-10 22:42:02.444 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.zzr.xyz.zzr]' package. Please check your configuration.
+2019-01-10 22:42:02.480 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:42:02.514 [ restartedMain ] - [ INFO  ] [ o.s.d.r.config.RepositoryConfigurationDelegate : 163 ] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-10 22:42:02.521 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ArticleRepository.
+2019-01-10 22:42:02.522 [ restartedMain ] - [ INFO  ] [ o.s.d.r.c.RepositoryConfigurationExtensionSupport : 297 ] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zzr.xyz.zzr.dao.ImgReposirory.
+2019-01-10 22:42:02.662 [ restartedMain ] - [ INFO  ] [ o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : 328 ] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e45420ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 22:42:02.884 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 91 ] - Tomcat initialized with port(s): 9999 (http)
+2019-01-10 22:42:02.884 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:42:02.885 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2019-01-10 22:42:02.885 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-01-10 22:42:02.947 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2019-01-10 22:42:02.948 [ localhost-startStop-1 ] - [ INFO  ] [ org.springframework.web.context.ContextLoader : 285 ] - Root WebApplicationContext: initialization completed in 1355 ms
+2019-01-10 22:42:03.000 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.ServletRegistrationBean : 185 ] - Servlet dispatcherServlet mapped to [/]
+2019-01-10 22:42:03.001 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-10 22:42:03.001 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-10 22:42:03.001 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-10 22:42:03.001 [ localhost-startStop-1 ] - [ INFO  ] [ o.s.boot.web.servlet.FilterRegistrationBean : 244 ] - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-10 22:42:03.082 [ restartedMain ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 930 ] - {dataSource-6} inited
+2019-01-10 22:42:03.100 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 361 ] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:42:03.100 [ restartedMain ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 22:42:03.224 [ restartedMain ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 157 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-01-10 22:42:03.312 [ restartedMain ] - [ INFO  ] [ o.s.orm.jpa.LocalContainerEntityManagerFactoryBean : 415 ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 22:42:03.439 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:42:03.555 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 574 ] - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5beab64c: startup date [Thu Jan 10 22:42:01 CST 2019]; root of context hierarchy
+2019-01-10 22:42:03.571 [ restartedMain ] - [ WARN  ] [ o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : 235 ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 22:42:03.584 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.index()
+2019-01-10 22:42:03.586 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/update],methods=[POST]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.update(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:42:03.588 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/uploadFile]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.uploadFile(javax.servlet.http.HttpServletRequest,org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+2019-01-10 22:42:03.591 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/123],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.tian123()
+2019-01-10 22:42:03.593 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-detail],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeDetail()
+2019-01-10 22:42:03.594 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/edit],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.edit(org.springframework.ui.Model,java.lang.Integer)
+2019-01-10 22:42:03.595 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.admin()
+2019-01-10 22:42:03.595 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/danye-list],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.danyeList(org.springframework.ui.Model)
+2019-01-10 22:42:03.596 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/addArticle],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.addArticle(com.zzr.xyz.zzr.entity.Article)
+2019-01-10 22:42:03.596 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/delete],methods=[GET]}" onto public java.lang.String com.zzr.xyz.zzr.controller.adminController.deleteArticleById(java.lang.Integer)
+2019-01-10 22:42:03.600 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-10 22:42:03.600 [ restartedMain ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 547 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-10 22:42:03.625 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:42:03.626 [ restartedMain ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-10 22:42:03.687 [ restartedMain ] - [ INFO  ] [ o.s.b.a.web.servlet.WelcomePageHandlerMapping : 61 ] - Adding welcome page template: index
+2019-01-10 22:42:04.199 [ restartedMain ] - [ INFO  ] [ o.s.b.d.autoconfigure.OptionalLiveReloadServer : 57 ] - LiveReload server is running on port 35729
+2019-01-10 22:42:04.243 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 433 ] - Registering beans for JMX exposure on startup
+2019-01-10 22:42:04.244 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 895 ] - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-01-10 22:42:04.253 [ restartedMain ] - [ INFO  ] [ o.s.jmx.export.annotation.AnnotationMBeanExporter : 668 ] - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-01-10 22:42:04.255 [ restartedMain ] - [ INFO  ] [ o.s.context.support.DefaultLifecycleProcessor : 351 ] - Starting beans in phase 2147483647
+2019-01-10 22:42:04.263 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-9999"]
+2019-01-10 22:42:04.265 [ restartedMain ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2019-01-10 22:42:04.271 [ restartedMain ] - [ INFO  ] [ o.s.boot.web.embedded.tomcat.TomcatWebServer : 206 ] - Tomcat started on port(s): 9999 (http) with context path ''
+2019-01-10 22:42:04.273 [ restartedMain ] - [ INFO  ] [ com.zzr.xyz.zzr.ZzrApplication : 59 ] - Started ZzrApplication in 2.753 seconds (JVM running for 5239.613)
+2019-01-10 22:42:04.277 [ restartedMain ] - [ INFO  ] [ o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : 56 ] - Condition evaluation unchanged
+2019-01-10 22:42:54.694 [ http-nio-9999-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-10 22:42:54.695 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 494 ] - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-10 22:42:54.704 [ http-nio-9999-exec-1 ] - [ INFO  ] [ org.springframework.web.servlet.DispatcherServlet : 509 ] - FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+2019-01-10 22:43:21.797 [ http-nio-9999-exec-5 ] - [ INFO  ] [ o.h.hql.internal.QueryTranslatorFactoryInitiator : 47 ] - HHH000397: Using ASTQueryTranslatorFactory
